@@ -1,0 +1,21 @@
+<div style="width:640px;height:480px;max-width:100%">
+    <div id="game"></div>
+</div>
+
+<script type="text/javascript">
+    EJS_player = '#game';
+    EJS_core = 'fbneo';             // コアの種類（fbneo）
+    EJS_gameUrl = 'data/sf3.zip';   // ROMのパス
+    EJS_pathtodata = 'data/';       // loader.jsなどのシステムファイルがある場所
+
+    // --- スクリーンショットにある主な設定項目 ---
+    EJS_startOnLoaded = true;       // 読み込み後すぐに開始するか
+    EJS_allowFullscreen = true;     // 全画面表示を許可するか
+    EJS_color = '#0061de';          // プレイヤーのメインカラー（青）
+    EJS_language = 'en-US';         // 言語設定
+    EJS_logging = false;            // ログ出力（通常はfalseでOK）
+    EJS_mouse = false;              // マウスを使用するか
+    EJS_multitap = false;           // マルチタップを使用するか
+</script>
+
+<script src="data/loader.js"></script>
